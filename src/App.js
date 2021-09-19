@@ -9,7 +9,10 @@ const App = () => {
 
   return (
     <div className="App">
-
+      <form>
+        <input type="text"/>
+        <button type="submit">SEARCH</button>
+      </form>
     </div>
   );
 }
