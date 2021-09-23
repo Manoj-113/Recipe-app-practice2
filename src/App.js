@@ -26,6 +26,9 @@ const App = () => {
         <input className="search-bar" type="text"/>
         <button  className="search-button" type="submit">SEARCH</button>
       </form>
+      {recipes.map(recipe => (
+        <Recipe/>
+      ))};
     </div>
   );
 }
